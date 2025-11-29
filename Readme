@@ -1,0 +1,17 @@
+Image-to-Text Backend API
+
+This project provides a lightweight backend service that accepts an image and returns both a classification label and a natural-language description (caption). It is designed specifically for integration with Android applications.
+
+Overview
+
+The API performs:
+
+Image classification
+
+Image caption generation
+
+Simple REST-based communication for Android apps
+
+Fast inference using pretrained or custom models
+
+Tech Stack :

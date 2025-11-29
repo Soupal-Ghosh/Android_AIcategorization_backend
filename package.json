@@ -1,0 +1,20 @@
+{
+  "name": "android_ai_categorization",
+  "version": "1.0.0",
+  "description": "Image-to-Text Backend API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bytez.js": "^3.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "formidable": "^3.5.4",
+    "multer": "^2.0.2"
+  }
+}
