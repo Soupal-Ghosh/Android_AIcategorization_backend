@@ -7,7 +7,7 @@ import { PassThrough } from "stream";
 dotenv.config();
 
 const sdk = new Bytez(process.env.bytez_api_key);
-const model = sdk.model("Salesforce/blip2-opt-2.7b");
+const model = sdk.model("Salesforce/blip-image-captioning-base");
 
 console.log("Model loaded.");
 
